@@ -1,0 +1,62 @@
+html,body,#map{
+	width:99.5%;
+	height:73%;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 10px;
+    fill: gray;
+}
+
+h1{
+    font-family: 'Bevan', serif;
+    font-size: 3.0em;
+    fill: gray;
+}
+.axis path,
+.axis line{
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+            
+.x.axis path{
+    display: none;
+}
+            
+.qline{
+    fill: none;
+    stroke: steelblue;
+    stroke-opacity: 50%;
+    stroke-width: 1.5px;
+}
+
+.rline{
+    fill: none;
+    stroke:#e377c2;
+    stroke-opacity: 50%;
+    stroke-width: 1.5px;
+}
+
+.cline{
+    fill: none;
+    stroke:#e3cf57;
+    stroke-opacity: 50%;
+    stroke-width: 1.5px;
+}
+
+.qdot{
+    fill: none;
+    stroke: red;
+}
+
+.rdot{
+    fill: none;
+    stroke: red;
+}
+
+.cdot{
+    fill: none;
+    stroke: red;
+}
